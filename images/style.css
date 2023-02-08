@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.hero{
+    background-image: url(/images/hero_bg_1.jpg);
+}
+
+
+
+
+h1{
+    font-size: 20vw;
+}
