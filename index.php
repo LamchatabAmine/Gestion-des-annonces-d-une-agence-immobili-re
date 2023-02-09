@@ -178,14 +178,14 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
               <input type="number" name="announcePrice" min="0" class="form-control" id="announce-price" required>
             </div>
             <div class="mb-3">
-              <!-- <div class="mb-3">
+              <div class="mb-3">
                 <label for="recipient-name"  class="col-form-label">Announce Picture :</label>
                 <input type="text" name="annonceImage" class="form-control" id="announce-pic" placeholder="Type URL here..">
-              </div> -->
-              <div class="mb-3">
+              </div> 
+              <!-- <div class="mb-3">
                 <label for="formFile" class="form-label" >Default file input example</label>
                 <input class="form-control" name="fileToUpload" type="file" id="formFile" required>
-              </div>
+              </div> !-->
               <div class="mb-3">
                 <label for="recipient-name" class="col-form-label">Announce Category :</label>
                 <select class="form-select input-xs " name="category" id="category" required>
@@ -288,8 +288,8 @@ for ($i=1; $i <= $pagesNum; $i++) {
           <label for="recipient-name" class="col-form-label">Announce Category :</label>
           <select class="form-select input-xs " name="category" id="category" required>
             <option selected>Category</option>
-            <option value="1">A louer</option>
-            <option value="2">A ventre</option>
+            <option value="louer">louer</option>
+            <option value="vendre">vendre</option>
           </select>
         </div>
         <div class="mb-3">
